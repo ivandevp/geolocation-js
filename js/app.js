@@ -23,7 +23,7 @@ var mostrarPosicion = function (posicion) {
 };
 
 var mostrarMapa = function (coordenadas) {
-	var map = new google.maps.Map(document.getElementById('map'), {
+	var map = new google.maps.Map(document.querySelector('.map'), {
       zoom: 17,
       center: coordenadas
     });
